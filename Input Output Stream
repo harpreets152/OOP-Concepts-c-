@@ -1,0 +1,18 @@
+C++ I/O operation is using the stream concept. Stream is the sequence of bytes or flow of data. It makes the performance fast.
+
+If bytes flow from main memory to device like printer, display screen, or a network connection, etc, this is called as output operation.
+
+If bytes flow from device like printer, display screen, or a network connection, etc to main memory, this is called as input operation.
+
+
+There are following header files important to C++ programs −
+
+1	
+<iostream>
+
+This file defines the cin, cout, cerr and clog objects, which correspond to the standard input stream, the standard output stream, the un-buffered standard error stream and the buffered standard error stream, respectively.
+
+2	
+<iomanip>
+
+This file declares services useful for performing formatted I/O with so-called parameterized stream manipulators, such as setw and setprecision.
